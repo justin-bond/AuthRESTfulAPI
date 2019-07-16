@@ -1,0 +1,37 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Auth RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekster909/AuthRESTfulAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Authentication",
+    "JWT",
+    "Tutorial"
+  ],
+  "author": "olatunde garuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geekster909/AuthRESTfulAPI/issues"
+  },
+  "homepage": "https://github.com/geekster909/AuthRESTfulAPI",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^5.6.4"
+  }
+}
